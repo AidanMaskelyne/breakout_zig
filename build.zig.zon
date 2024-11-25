@@ -1,0 +1,10 @@
+.{ .name = "breakout", .version = "1.0.0", .dependencies = .{
+    .raylib = .{
+        .url = "https://github.com/raysan5/raylib/archive/6141489b003be8136d0900479b44fb0732998ff8.tar.gz",
+        .hash = "12200047ff1ab70b4beb6c35c25ccc5d0a93cf98a9f5f5b5316f5842ca11a75e458e",
+    },
+}, .paths = .{
+    "build.zig",
+    "build.zig.zon",
+    "src",
+} }
